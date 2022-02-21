@@ -1,0 +1,22 @@
+Package: jsPsychR
+Title: Create, test and analyze behavioral experiments using jsPsych and R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gorka", "Navarrete", , "gorkang@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7678-8656"))
+Description: Wrapper package for all the jsPsychR projects (jsPsychHelpeR, jsPsychMakeR, jsPsychMonkeys)
+License: MIT + file LICENSE
+URL: https://github.com/gorkang/jsPsychR
+BugReports: https://github.com/gorkang/jsPsychR/issues
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    dplyr
+Suggests: 
+    knitr
+VignetteBuilder: 
+    knitr
+LazyData: FALSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
